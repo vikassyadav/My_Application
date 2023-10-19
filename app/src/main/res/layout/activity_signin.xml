@@ -35,20 +35,20 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
+
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:shapeAppearance="@style/Rounded"
         android:layout_margin="20sp">
-
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtxtLogInEmail"
-
+            android:id="@+id/SignUpEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email Address"
             android:textColor="@color/black"
             android:inputType="textEmailAddress"
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -56,45 +56,32 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:endIconMode="password_toggle"
-        app:shapeAppearance="@style/Rounded"
         app:endIconTint="@color/colorPrimary"
+        app:shapeAppearance="@style/Rounded"
         android:layout_margin="20sp">
-
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtxtLogInPassword"
+            android:id="@+id/SignUpPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+
             android:textColor="@color/black"
             android:inputType="textPassword"
+
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>
-    <CheckBox
-        android:id="@+id/checkBoxRememberMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Remember Me"
-        android:textColor="@color/black" />
-    <ProgressBar
-        android:id="@+id/LoginPrograssBar"
-        android:visibility="gone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="75sp"
-        android:layout_marginEnd="75sp"
-        android:backgroundTint="#2CB5F3"
-        android:text="@string/login" />
+<ProgressBar
+    android:id="@+id/SignUpPrograssBar"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnSignUp"
@@ -106,53 +93,14 @@
         android:backgroundTint="#2CB5F3"
         android:text="SignUp " />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
-        android:backgroundTint="#064B87"
-        android:drawableLeft="@drawable/img"
-
-        android:elevation="10dp"
-        android:text="login with google"
-
-        />
-
-
-<!--<LinearLayout-->
-<!--    android:id="@+id/googleLogin"-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:orientation="horizontal"-->
-<!--    android:clickable="true">-->
-
-<!--    <ImageButton-->
-<!--        android:id="@+id/searchImageButton"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:scaleType="fitCenter"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:src="@drawable/img"-->
-<!--        />-->
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="login with google"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:textStyle="bold"/>-->
-<!--</LinearLayout>-->
-
-
     <TextView
-        android:id="@+id/txtSignUp"
+        android:id="@+id/signUp_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Forget Password"
-        android:textColor="@color/black"
-        android:textSize="16sp"
+        android:text="login"
+        android:textColor="#273EAF"
+        android:textSize="20sp"
         android:textStyle="bold" />
 </LinearLayout>
     <!--    use textinputedittext-->
@@ -163,7 +111,3 @@
     <!--            android:layout_width=""-->
     <!--            android:layout_height=""-->
     <!--    </com.google.android.material.textfield.TextInputLayout>-->
-
-<!--    https://www.geeksforgeeks.org/how-to-use-material-text-input-layout-in-android/
-reference
--->

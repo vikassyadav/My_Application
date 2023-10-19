@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feat1"
+        android:title="feature 1 "
+        android:icon="@drawable/feature_1"/>
+    <item
+        android:id="@+id/feat2"
+        android:title="feature 2 "
+        android:icon="@drawable/feature_1"/>
+    <item
+        android:id="@+id/feat3"
+        android:title="feature 3 "
+        android:icon="@drawable/feature_1"/>
+    <item
+        android:id="@+id/feat4"
+        android:title="feature 4 "
+        android:icon="@drawable/feature_1"/>
+    <item
+        android:id="@+id/feat5"
+        android:title="feature 5 "
+        android:icon="@drawable/feature_1"/>
+    <item
+        android:id="@+id/feat6"
+        android:title="feature 6 "
+        android:icon="@drawable/feature_1"/>
+
+
+</menu>
