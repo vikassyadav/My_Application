@@ -4,13 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".childDashboard">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="35sp"
+        android:gravity="center"
         android:text="YET NOT DEVELOPED"
-        tools:ignore="MissingConstraints" />
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="273dp" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/mainActytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="parent app"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/logOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
