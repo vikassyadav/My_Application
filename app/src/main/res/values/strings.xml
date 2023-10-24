@@ -4,5 +4,10 @@
     <string name="OpenDrawer">Open Navigation</string>
     <string name="CloseDrawer">Closen Navigation</string>
     <string name="call_log">Call Log</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="call_log_fragment">add call feature here </string>
+    <string name="geo_location_fragement">add geo location tracking fetature here</string>
+    <string name="geo_fencing"> add geo fencing code/activity</string>
+    <string name="screen_time">screen time control activity</string>
 
 </resources>

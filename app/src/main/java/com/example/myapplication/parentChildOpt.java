@@ -26,7 +26,7 @@ CardView cardView1 ,cardView2 ;
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        Intent iHome = new Intent(parentChildOpt.this , parentDashboard.class);
+                        Intent iHome = new Intent(parentChildOpt.this , MainActivity.class);
                         startActivity(iHome);
                         //finish();//poping from stack so is activity can't get open even after pressing back button
 
